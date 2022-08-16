@@ -2,9 +2,6 @@ from words import words
 from collections import deque
 from string import ascii_lowercase
 
-start = "soft"
-target = "ware"
-
 
 def get_path(w, parents):
     p = [w]
